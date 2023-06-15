@@ -1,0 +1,19 @@
+
+
+.nav__lista{
+    display: flex;
+    display: none;
+    flex-direction: row;
+    list-style: none;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    .nav__lista{
+        display: contents;
+        display: flex;
+        list-style: none;
+    }
+    
+}

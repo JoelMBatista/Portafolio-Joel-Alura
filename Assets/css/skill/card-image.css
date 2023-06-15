@@ -1,0 +1,43 @@
+.card__image{
+    width: 1.99rem;
+    height: 1.979rem;  
+    background-repeat: no-repeat;
+}
+
+.card__image--html{
+    background-image: url(../../img/hmtl-5.png);
+    
+}
+
+.card__image--javasctipt{
+    background-image: url(../../img/JS.png);
+    
+}
+
+.card__image--phpMyAdmin{
+   border-radius: 5px;
+    background-image: url(../../img/base-de-datos.png);
+    
+}
+
+.card__image--CSS{
+    background-image: url(../../img/css-file\ 1.png);
+
+}
+
+.card__image--react{
+    background-image: url(../../img/react.png);
+}
+
+.card__image--git{
+    border-radius: 5px;
+    background-image: url(../../img/git.png);
+}
+
+.card__image--github{
+    background-image: url(../../img/github.png);
+}
+
+.card__image--bootstrap{
+    background-image: url(../../img/bootstrap.png);
+}

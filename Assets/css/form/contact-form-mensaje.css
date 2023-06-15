@@ -1,0 +1,22 @@
+.contact__form__mensaje {
+    width: 296px;
+    height: 133px;
+    border: none;
+    border-bottom: 2px solid #C8C8C8;
+    border-radius: 5px;
+    margin-bottom: 32px;
+    padding-left: 12px;
+    padding-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .contact__form__mensaje {
+        width: 704px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .contact__form__mensaje{
+        width: 656px;
+    }
+}

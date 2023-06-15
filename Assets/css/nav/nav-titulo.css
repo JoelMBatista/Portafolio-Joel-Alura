@@ -1,0 +1,17 @@
+.nav__titulo{
+    color:  #464646;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Raleway, cursive;
+    padding-left: 0;
+    margin-left: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .nav__titulo{
+        margin-left: 0.625rem;
+    }
+    
+}
+
+

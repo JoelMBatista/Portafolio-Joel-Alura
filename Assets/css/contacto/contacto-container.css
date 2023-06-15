@@ -1,0 +1,25 @@
+.contacto__container {
+    padding-left: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+
+    .contacto__container {
+       align-items: start;
+        width: 768px;
+        height: 637px;
+        padding-left: 2rem;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .contacto__container {
+        width: 656px;
+        height: 596px;
+        padding-left: 1rem;
+        
+    }
+
+}

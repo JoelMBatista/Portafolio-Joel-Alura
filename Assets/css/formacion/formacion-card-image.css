@@ -1,0 +1,11 @@
+.formacion__card__image{
+    width: 5.25rem;
+    height: 4.625rem;  
+    background-repeat: no-repeat;
+}
+
+.altura--imagen{
+    width: 5.25rem;
+    height: 3.625rem; 
+    margin-top: 0.5rem;
+}

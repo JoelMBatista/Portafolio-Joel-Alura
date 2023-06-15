@@ -1,0 +1,14 @@
+.formacion__contenedor__card{
+   padding-left: 2rem;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .formacion__contenedor__card{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 1rem;
+    }
+    
+}

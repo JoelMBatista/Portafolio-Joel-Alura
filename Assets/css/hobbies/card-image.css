@@ -1,0 +1,35 @@
+.card__image{
+    width: 1.99rem;
+    height: 1.979rem;  
+    background-repeat: no-repeat;
+}
+
+.card__image--musica{
+    background-image: url(../../img/musica.png);
+    
+}
+
+.card__image--pelicula{
+    background-image: url(../../img/tv.png);
+    
+}
+
+.card__image--cocinar{
+    background-image: url(../../img/cocinar.png);
+    
+}
+
+.card__image--bateria{
+    border-radius: 5px;
+    background-image: url(../../img/bateria.png);
+}
+
+.card__image--game{
+    border-radius: 5px;
+    background-image: url(../../img/controlador-de-videojuegos.png);
+}
+
+.card__image--caminar{
+    border-radius: 5px;
+    background-image: url(../../img/hombre-peatonal.png);
+}

@@ -1,0 +1,20 @@
+.experiencia__container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.experiencia__container__other{
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 1024px) {
+    .experiencia__container {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    
+    }
+}

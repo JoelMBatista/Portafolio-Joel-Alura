@@ -1,0 +1,24 @@
+.formacion__card {
+    background-color: #FFFFFF;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 1rem;
+    width: 296px;
+    height: 105px;
+    
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .formacion__card {
+
+        width: 224px;
+        height: 118px;
+        margin-right: 16px;
+       
+    }
+    
+}

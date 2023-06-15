@@ -1,0 +1,19 @@
+.presentacion__introduccion{
+    font-weight: 700;
+    font-size: 24px;
+    color:  #464646;
+    line-height: 22px;
+    margin-bottom: 1rem;
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .presentacion__introduccion {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 61px;
+    
+    }
+    
+}

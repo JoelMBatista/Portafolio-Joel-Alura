@@ -1,0 +1,86 @@
+.nav__link{
+    margin-right: 1rem;
+}
+
+.nav__link__sobre{
+    display: none;
+}
+
+.nav__link__skill{
+    display: none;
+}
+
+.nav__link__hobbies{
+    display: none;
+}
+
+.nav__link__formacion{
+    display: none;
+}
+
+.nav__link__proyectos{
+    display: none;
+}
+
+.nav__link__email{
+    font-family: Raleway, cursive;
+    font-weight: 400;
+    color: #464646;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .nav__link__sobre{
+        display: contents;
+        font-family: Raleway, cursive;
+        font-weight: 400;
+        color: #464646;
+        font-size: 16px;
+        text-decoration: none;
+    }
+
+    .nav__link__skill{
+        display: contents;
+        font-family: Raleway, cursive;
+        font-weight: 400;
+        color: #464646;
+        font-size: 16px;
+        text-decoration: none;
+    }
+
+    .nav__link__hobbies{
+        display: contents;
+        font-family: Raleway, cursive;
+        font-weight: 400;
+        color: #464646;
+        font-size: 16px;
+        text-decoration: none;
+    }
+
+    .nav__link__formacion{
+        display: contents;
+        font-family: Raleway, cursive;
+        font-weight: 400;
+        color: #464646;
+        font-size: 16px;
+        text-decoration: none;
+    }
+
+    .nav__link__proyectos{
+        display: contents;
+        font-family: Raleway, cursive;
+        font-weight: 400;
+        color: #464646;
+        font-size: 16px;
+        text-decoration: none;
+    }
+
+    .nav__link__email{
+        font-weight: 700;
+        font-size: 16px;
+    }
+    
+}
+

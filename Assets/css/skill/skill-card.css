@@ -1,0 +1,23 @@
+.skill__card {
+    background-color: #FFFFFF;
+    flex-direction: row;
+    width: 156px;
+    height: 105px;
+    padding: 38px 0 43px 16px;
+    border-radius: 8px;
+    margin-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+   
+    .skill__card {
+     
+        width: 224px;
+        height: 118px;
+    
+       
+      
+    }
+
+    
+}
