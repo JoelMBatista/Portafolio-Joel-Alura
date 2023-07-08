@@ -41,3 +41,7 @@
 .card__image--bootstrap{
     background-image: url(../../img/bootstrap.png);
 }
+
+.card__image--traductor{
+    background-image: url(../../img/traduccion.png);
+}

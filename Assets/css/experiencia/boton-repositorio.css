@@ -10,3 +10,7 @@
     border-radius: 4px;
 
 }
+
+.boton__repositorio:hover{
+    cursor: pointer;
+}
