@@ -1,5 +1,17 @@
 .hobbies__cards{
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
-    justify-content: space-around;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 1rem;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .hobbies__cards {
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    
+    }
 }
