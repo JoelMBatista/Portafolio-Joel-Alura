@@ -1,14 +1,12 @@
 .experiencia__container {
     width: auto;
-    display: grid;
     flex-wrap: wrap;
+    display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 1px;
-    margin-top: 1rem;
+    padding-bottom: 30px;
 }
 
 .experiencia__container__other{
-    margin-top: 0.5rem;
     display: flex;
     flex-direction: column;
 }
@@ -16,8 +14,9 @@
 @media screen and (min-width: 1024px) {
     .experiencia__container {
         align-items: center;
+        justify-content: center;
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     
     }
 }

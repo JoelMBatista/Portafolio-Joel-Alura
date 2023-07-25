@@ -12,6 +12,15 @@
     .skill__cards {
         align-items: center;
         display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .skill__cards {
+        align-items: center;
+        display: grid;
         grid-template-columns: repeat(5, 1fr);
     
     }

@@ -1,7 +1,26 @@
 .footer{
     background-color:  #FFFFFF;
     width: auto;
-    height: 120px;
     margin: 32px 0 0 0;
-    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.insignias{
+    display: flex;
+    justify-content: space-between;
+}
+
+.insignias img{
+    width: 100px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .footer{
+        flex-direction: row;
+    }
+  
 }
