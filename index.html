@@ -424,13 +424,13 @@
                     <p class="contacto__descripcion">
                         Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
 
-                    <form action="submit" class="contact__form">
-                        <input class="contact__form__nombre" type="text" name="nombre" placeholder="Nombre" required />
-                        <input class="contact__form__correo" type="email" name="correo" placeholder="Email" required />
-                        <input class="contact__form__asunto" type="text" name="asunto" placeholder="Asunto" required />
-                        <textarea class="contact__form__mensaje" rows="3" cols="22" name="mensaje" id="message"
-                            placeholder="Mensaje"></textarea>
-                        <button class="contact__form__boton" type="submit" value="Submit">Enviar mensaje</button>
+                    <form action="submit" class="contact__form" data-contactForm>
+                        <input class="contact__form__nombre" type="text" name="name" placeholder="Nombre" required  data-Name/>
+                        <input class="contact__form__correo" type="email" name="email" placeholder="Email" required data-Email/>
+                        <input class="contact__form__asunto" type="text" name="subject" placeholder="Asunto" required  data-Subject/>
+                        <textarea class="contact__form__mensaje" rows="3" cols="22" name="message" id="message"
+                            placeholder="Mensaje" data-Message></textarea>
+                        <button class="contact__form__boton" type="submit" value="Submit" data-Btn>Enviar mensaje</button>
                     </form>
 
                 </div>
@@ -463,7 +463,8 @@
         </footer>
 
     </main>
-
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script src="./Assets/send-email.js"></script>
 </body>
 
 </html>
